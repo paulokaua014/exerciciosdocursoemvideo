@@ -1,4 +1,4 @@
-primeiroNumero =  int(input('primeiro numero = '))
-segundoNumero = int(input ('segundo numero = '))
-soma = primeiroNumero + segundoNumero
-print('A soma dos', primeiroNumero, 'mais o ', segundoNumero,' e igual a ' + str(soma),  '.')
+n1 =  int(input('primeiro numero = '))
+n2 = int(input ('segundo numero = '))
+soma = n1 + n2
+print('A soma dos', n1, 'mais o ', n2,' e igual a {}'.format(soma))
