@@ -1,0 +1,6 @@
+nome = str(print(input('Digite seu nome completo: ')))
+print('Analisando seu nome...')
+nomemim = nome.lower()
+print('Seu nome tem Silva? {}'.format('silva' in nomemim))
+print('Silva' in nome)
+print('Silva' not in nome)
