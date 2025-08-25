@@ -1,11 +1,11 @@
 import random
 
-nome1 = str(input('  Digite o primeiro nome:     '))
-nome2 = str(input('  Digiteo segundo nome:     '))
-nome3 = str(input('  Digite o terceiro nome:     '))
-nome4 = str(input('  Digite o quarto nome:     '))
+n1 = str(input('Digite o primeiro nome: '))
+n2 = str(input('Digiteo segundo nome: '))
+n3 = str(input('Digite o terceiro nome: '))
+n4 = str(input('Digite o quarto nome: '))
 
-lista = [nome1,nome2,nome3,nome4]
+lista = [n1,n2,n3,n4]
 
 random.shuffle(lista)
 
