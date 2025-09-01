@@ -7,4 +7,4 @@ else:
     if n2 >= n1 and n2 >= n3:
         print('O maior valor digitado foi {}'.format(n2))
     else:
-        print('O maior valor digitado foi {}'.format(n3))
+        print('O maior valor digitado foi {}'.format(n3)) 
