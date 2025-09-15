@@ -1,15 +1,15 @@
 from datetime import date
 atual = date.today().year
 idade = int(input('Qual é a sua idade? '))
-idede = atual - idade
+idade = atual - idade
 print('O atleta tem {} anos.'.format(idade))
-if idede <= 9:
+if idade <= 9:
     print('Classificação: MIRIM')
-elif idede <= 14:
+elif idade <= 14:
     print('Classificação: INFANTIL')
-elif idede <= 19:
+elif idade <= 19:
     print('Classificação: JÚNIOR')
-elif idede <= 25:
+elif idade <= 25:
     print('Classificação: SÊNIOR')
 else:
     print('Classificação: MASTER')
