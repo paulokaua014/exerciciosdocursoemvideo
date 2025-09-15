@@ -1,11 +1,15 @@
-idade = float(input('Digite sua idade: '))
-if idade == 9, 10, 11:
-    print('MIRIM')
-elif idade == 12, 13, 14:
-    print('INFANTIL')
-elif idade == 15, 16, 17:
-    print('JUNIOR')
-elif idade == 20:  
-    print('SÊNIOR')
+from datetime import date
+atual = date.today().year
+idade = int(input('Qual é a sua idade? '))
+idede = atual - idade
+print('O atleta tem {} anos.'.format(idade))
+if idede <= 9:
+    print('Classificação: MIRIM')
+elif idede <= 14:
+    print('Classificação: INFANTIL')
+elif idede <= 19:
+    print('Classificação: JÚNIOR')
+elif idede <= 25:
+    print('Classificação: SÊNIOR')
 else:
-    print('MASTER')
+    print('Classificação: MASTER')
