@@ -1,3 +1,4 @@
+from time import sleep
 import random
 jokes = ['Pedra', 'Papel', 'Tesoura']
 computador = random.choice(jokes)
@@ -10,8 +11,11 @@ if jogador != 0 and jogador != 1 and jogador != 2:
     print('Jogada inválida! Tente novamente.')
 else:
     print('JO')
+    sleep(1)
     print('KEN')
+    sleep(1)
     print('PÔ!!!')
+    sleep(1)
     print('-=' * 11)
     print('Computador jogou {}'.format(computador))
     print('Jogador jogou {}'.format(jokes[jogador]))
